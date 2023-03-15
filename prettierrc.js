@@ -22,11 +22,15 @@
 
 
 
-const users = ["1 - Mango", "3 - Ajax", "2 - Poly"];
+// const users = ["1 - Mango", "3 - Ajax", "2 - Poly"];
 
-for (let i = 0; i < users.length; i += 1) {
-  console.log(users[i]);
-}
+// for (let i = 0; i < users.length; i += 1) {
+//   console.log(users[i]);
+// }
+// for (const user of users) {
+//   console.log(user)
+  
+// }
 // ......................
 
 
@@ -36,17 +40,16 @@ for (let i = 0; i < users.length; i += 1) {
 // Визначення типу значення, оператор typeof
 
 
-
 // const productName = 'Mango';
-
+// console.log(typeof productName )
 // const pricePerItem = 150;
-
+// console.log(typeof pricePerItem )
 // const isOnSale = false;
-
+// console.log(typeof isOnSale )
 // const error = null;
-
+// console.log(typeof error )
 // let quantity;
-
+// console.log(typeof quantity )
 
 
 // .....................
@@ -61,14 +64,14 @@ for (let i = 0; i < users.length; i += 1) {
 
 
 
-// const name = '';
+const name = 'Vlad';
 
-// const age = ;
+const age = 15;
 
-// const hobby = '';
+const hobby = 'It';
 
-// const message = ;
+const message = `Привіт, меня  звати ${name} мні ${age } років і мені подобається ${hobby}`;
 
 
 
-// console.log(message);
+console.log(message);
